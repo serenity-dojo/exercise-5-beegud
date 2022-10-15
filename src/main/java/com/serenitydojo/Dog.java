@@ -7,9 +7,9 @@ public class Dog extends Pet {
 
     public static final String DOG_NOISE = "Woof";
 
-    public Dog(String name, String favoriteToy, int age) {
+    public Dog(String name, String favoriteGame, int age) {
         super(name, age);
-        this.favoriteToy = favoriteToy;
+        this.favoriteToy = favoriteGame;
     }
 
     public String getFavoriteToy() {
